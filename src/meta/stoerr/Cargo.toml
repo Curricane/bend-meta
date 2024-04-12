@@ -1,0 +1,14 @@
+[package]
+name = "meta-stoerr"
+version.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyerror.workspace = true
+thiserror.workspace = true
+prost.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sled.workspace = true

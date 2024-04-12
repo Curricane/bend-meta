@@ -1,0 +1,22 @@
+[package]
+name = "meta-types"
+version.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing.workspace = true
+tokio.workspace = true
+tonic.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+log.workspace = true
+prost.workspace = true
+derive_more = { workspace = true }
+num-derive = "0.3.3"
+num-traits = "0.2.15"
+
+[build-dependencies]
+prost-build.workspace = true
+tonic-build.workspace = true
